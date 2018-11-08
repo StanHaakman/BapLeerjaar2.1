@@ -1,0 +1,9 @@
+header, nav, main, footer{
+    background-color: #737373;
+    margin: 10px 0;
+    min-height: 100px;
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
