@@ -23,7 +23,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('artikel') }}">Artikel</a>
+                    <a class="nav-link" href="{{ url('artikel/123') }}">Artikel</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
