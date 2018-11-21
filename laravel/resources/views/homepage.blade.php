@@ -7,8 +7,9 @@
 @endsection
 
 @section('content')
-    <h1>HOMEPAGE</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, at eveniet exercitationem expedita labore laboriosam molestias optio reprehenderit suscipit temporibus voluptate voluptates voluptatibus! Dolor ipsa laborum, magni molestiae quas repellat!</p>
+    <p>Welkom op de pagina voor Bootcamp Medemblik. Hier kunt u alles te weten komen over bootcamp Medemblik.<br>
+
+    </p>
 @endsection
 
 @section('navigation')
@@ -20,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{url('')}}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('artikel/123') }}">Artikel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Datum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="{{url('contact')}}">Contact</a>
                 </li>
             </ul>
         </div>

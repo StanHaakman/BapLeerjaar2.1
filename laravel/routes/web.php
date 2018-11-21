@@ -28,6 +28,14 @@ Route::get('/artikel', function () {
     return view('artikel');
 });
 
+Route::get('/contact', function (){
+    return view('contact');
+});
+
+Route::get('/aanmelden', function (){
+    return view('aanmelden');
+});
+
 Route::get('/drivers', function(){
         $drivers = DB::table('drivers')->get();
         return view('drivers',['drivers' => $drivers]);
@@ -45,3 +53,4 @@ Route::get('/artikel/{naam}', function ($naam) {
 
 ;
 
+Route::get('/trainingsRegistration-process', 'TrainingsRegistrationController@test');
