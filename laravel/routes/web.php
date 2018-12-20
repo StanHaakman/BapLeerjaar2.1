@@ -54,3 +54,9 @@ Route::get('/artikel/{naam}', function ($naam) {
 ;
 
 Route::get('/trainingsRegistration-process', 'TrainingsRegistrationController@test');
+
+
+Route::get('/photo-gallery','PhotoGalleryController@listPhotos')->name('gallery.index');
+Route::get('/photo-gallery/add-photo','PhotoGalleryController@showPhotoForm')->name('gallery.add_photo');
+Route::post('/photo-gallery/add-photo','PhotoGalleryController@savePhotoForm')->name('gallery.save_photo');
+
